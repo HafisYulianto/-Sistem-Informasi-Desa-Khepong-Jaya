@@ -1,221 +1,169 @@
-<div align="center">
+<p align="center">
+  <img src="public/logo.png" alt="Lambang Kabupaten Pesawaran" width="120" />
+</p>
 
-  <img src="public/logo.png" alt="Logo Kabupaten Pesawaran" width="120" height="auto" />
+<h1 align="center">SISTEM INFORMASI DESA KHEPONG JAYA</h1>
 
-  # SISTEM INFORMASI DESA KHEPONG JAYA
-  ### Portal Web Desa Modern 100% Dinamis (Zero-Hardcoded) & Terintegrasi
+<p align="center">
+  <strong>Portal Web Pemerintahan Desa Modern 100% Dinamis (Zero Hardcode)</strong><br>
+  Kecamatan Padang Cermin, Kabupaten Pesawaran, Provinsi Lampung
+</p>
 
-  [![Next.js](https://img.shields.io/badge/Next.js-15_(App_Router)-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-  [![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)](https://react.dev/)
-  [![Supabase](https://img.shields.io/badge/Supabase-PostgreSQL_%7C_Auth_%7C_Storage-3ECF8E?style=for-the-badge&logo=supabase)](https://supabase.com/)
-  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
-
-  <p align="center">
-    <strong>Kecamatan Padang Cermin, Kabupaten Pesawaran, Provinsi Lampung</strong><br />
-    <em>Maju, Mandiri, Berbudaya, dan Sejahtera</em>
-  </p>
-
-</div>
-
----
-
-## 📌 Tentang Proyek
-
-**Sistem Informasi Desa Khepong Jaya** adalah platform digital pelayanan dan keterbukaan informasi publik desa yang dibangun dengan standar performa modern. Seluruh konten teks, warna tema CSS, susunan navigasi, tata letak beranda, hingga halaman tambahan dikelola secara **100% dinamis (Zero Hardcode)** melalui Admin Panel tanpa perlu mengubah kode sumber atau *re-deploy*.
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-15_(App_Router)-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/Supabase-PostgreSQL_%7C_Auth_%7C_Storage-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+</p>
 
 ---
 
-## ✨ Fitur-Fitur Utama (Sesuai PRD)
+## 📖 Tentang Aplikasi
 
-### 1. 🌐 Zero Hardcode & Dynamic Theme Injection
-- **CSS Variables Dinamis**: Pengaturan warna primer (`--primary`), warna aksen (`--accent`), dan jenis huruf dapat diubah sewaktu-waktu melalui Admin Panel dan langsung diterapkan ke seluruh halaman.
-- **Menu Navigasi Bertingkat (CRUD Menu)**: Menambah, mengedit tautan, dan menyusun sub-menu dropdown header secara fleksibel.
-- **Identitas & Footer Dinamis**: Nama desa, logo, kontak WhatsApp, email pelayanan, dan sematan peta Google Maps terhubung ke database `site_settings` berbasis JSONB.
+**Sistem Informasi Desa Khepong Jaya** adalah portal web modern berkinerja tinggi yang dirancang dengan konsep **100% Dinamis (Zero-Hardcode)**. 
 
-### 2. 🧩 Modular Dynamic Page Builder (`/[slug]`)
-- **Catch-All Dynamic Routing**: Admin dapat membuat halaman baru tak terbatas (contoh: `/visi-misi`, `/sejarah`, `/karang-taruna`, `/bumdes`) yang otomatis live seketika.
-- **5 Tipe Blok Konten**:
-  - 📝 **Rich Text Block**: Tipografi artikel lengkap (heading, list, kutipan).
-  - 🖼️ **Image Banner Block**: Foto resolusi tinggi dengan caption dan optimasi WebP.
-  - ⚖️ **Split Content Block**: Tata letak berdampingan antara teks deskripsi dan gambar (posisi kiri/kanan).
-  - 📂 **Document Download Block**: Kartu unduhan berkas PDF (Perdes, formulir warga, SK Kades) dengan info ukuran file.
-  - 🎥 **Embed Block**: Sematan interaktif video profil YouTube dan peta wilayah.
+Seluruh elemen website—mulai dari identitas desa, warna tema CSS, susunan menu navigasi, blok halaman (*page builder*), transparansi APBDes, berita, katalog produk UMKM, hingga aspirasi warga—dikelola secara fleksibel melalui Admin Panel tanpa perlu mengubah baris kode atau melakukan *build/deploy* ulang.
+
+---
+
+## 🌟 Fitur Unggulan
+
+### 1. 🎨 Kustomisasi Tema & Tata Letak Dinamis
+* **Injeksi CSS Variables Real-Time**: Warna primer (`--primary`), warna aksen (`--accent`), dan font dapat diubah langsung dari Admin Panel.
+* **Header & Navigasi Bertingkat (CRUD Menu)**: Menambah, mengubah urutan, dan mengatur sub-menu dropdown dengan mudah.
+* **Pengaturan Footer Terintegrasi**: Alamat kantor desa, kontak resmi WhatsApp, email, dan Google Maps Embed.
+
+### 2. 🧱 Pembuat Halaman Dinamis (Dynamic Page Builder)
+* **Catch-All Routing (`/[slug]`)**: Menangani halaman buatan admin (misal: `/visi-misi`, `/sejarah`, `/karang-taruna`) secara otomatis.
+* **Tumpukan Blok Fleksibel**:
+  * ✍️ **Rich Text**: Format teks lengkap (heading, paragraf, list, kutipan).
+  * 🖼️ **Banner Gambar**: Foto resolusi optimal dengan keterangan caption.
+  * 📑 **Split Content**: Komposisi visual gambar berdampingan dengan teks (kiri/kanan).
+  * 📥 **Unduhan Berkas**: Kartu unduh dokumen PDF (Perdes, SK Kades, Formulir).
+  * 🎬 **Embed**: Sematan interaktif video YouTube dan peta lokasi.
 
 ### 3. ⚡ On-Demand Cache Revalidation
-- Setiap aksi **Create, Update, atau Delete** di Admin Panel mengeksekusi `revalidatePath` di sisi server Next.js. Perubahan langsung tampil instan di web publik tanpa menunggu masa *cache expired* dan tanpa mengorbankan kecepatan loading Server Components.
+* Setiap mutasi data di Admin Panel secara otomatis menjalankan `revalidatePath` di sisi server Next.js.
+* Konten di sisi publik terperbarui secara **instan (real-time)** dengan kecepatan maksimal *Server Components*.
 
-### 4. 📊 Transparansi APBDes Real-Time
-- Pelaporan anggaran terbuka untuk pos **Pendapatan Desa**, **Belanja & Pembangunan**, dan **Pembiayaan (SiLPA)**.
-- Dilengkapi **kalkulasi otomatis persentase penyerapan**, progress bar visual, dan tabel rincian kegiatan per bidang.
+### 4. 💰 Transparansi Anggaran (APBDes)
+* Transparansi pos **Pendapatan Desa**, **Belanja & Pembangunan**, dan **Pembiayaan (SiLPA)**.
+* Dilengkapi kalkulasi otomatis persentase penyerapan anggaran, progress bar visual, dan tabel rincian transaksi per bidang.
 
-### 5. 🛍️ Katalog Potensi & UMKM Desa
-- Etalase digital karya warga desa (olahan kopi, keripik, kerajinan tangan).
-- Fitur pemesanan langsung satu klik via tautan **WhatsApp resmi pemilik usaha** dengan pesan otomatis.
+### 5. 🛍️ Potensi Desa & Katalog UMKM
+* Galeri produk lokal unggulan warga (kopi robusta petik merah, olahan keripik, kerajinan bambu).
+* Fitur pemesanan langsung ke **WhatsApp resmi pemilik usaha** lengkap dengan format pesan otomatis.
 
 ### 6. 📢 Layanan Aspirasi & Pengaduan Warga
-- Formulir pengaduan publik yang dilengkapi fitur unggah foto bukti lapangan.
-- **Client-Side Image Compression**: Otomatis mengompresi foto ke format WebP (<800 KB) langsung di browser warga sebelum diunggah ke storage.
-- Pelacak status penanganan (*Menunggu Verifikasi*, *Sedang Diproses*, *Selesai Ditindaklanjuti*) disertai tanggapan resmi pemerintah desa.
-
-### 7. 🛡️ Keamanan Berlapis & RLS (Row Level Security)
-- **Supabase Auth**: Akses dashboard admin terlindungi melalui email & sandi.
-- **Next.js Middleware**: Memfilter setiap rute `/admin/*` dari akses yang tidak terotorisasi.
-- **PostgreSQL RLS Policies**: Publik hanya diberikan izin `SELECT` pada data aktif/diterbitkan, sedangkan operasi mutasi data wajib memiliki peran `super_admin` atau `editor`.
+* Formulir pelaporan fasilitas umum dengan lampiran foto bukti.
+* **Client-Side WebP Compression**: Foto otomatis dikompresi di browser (<800 KB) sebelum dikirim ke Supabase Storage.
+* Pelacakan status (*Menunggu Verifikasi*, *Sedang Diproses*, *Selesai*) disertai tanggapan resmi pemerintah desa.
 
 ---
 
-## 🏛️ Arsitektur Sistem
+## 🛠️ Tech Stack
 
-```mermaid
-flowchart TD
-    subgraph Warga ["🌐 Pengunjung Publik"]
-        PUB_HOME["/ (Beranda Dinamis)"]
-        PUB_BUILDER["/[slug] (Dynamic Page Builder)"]
-        PUB_MOD["/berita • /apbdes • /umkm • /pengaduan"]
-    end
-
-    subgraph AdminPanel ["🔐 Admin Portal (/admin)"]
-        ADM_THEME["Pengaturan Tema & Navigasi"]
-        ADM_PAGES["Page & Section Builder"]
-        ADM_CRUD["CRUD Berita, APBDes, UMKM, Aparatur"]
-        ADM_MEDIA["Media Manager (Client WebP)"]
-    end
-
-    subgraph NextServer ["⚡ Next.js App Router (Server-Side)"]
-        MW["Middleware (Auth Guard)"]
-        RSC["React Server Components"]
-        SA["Server Actions (CRUD Mutator)"]
-        REV["On-Demand Cache Revalidation"]
-    end
-
-    subgraph SupabaseDB ["🗄️ Supabase Cloud"]
-        AUTH["Supabase Auth (Admin/Editor)"]
-        DB[("PostgreSQL (RLS + JSONB Store)")]
-        STORAGE["Storage Bucket (desa-media)"]
-    end
-
-    ADM_THEME & ADM_PAGES & ADM_CRUD --> SA
-    SA --> DB
-    SA --> REV
-    ADM_MEDIA --> STORAGE
-    MW --> AUTH
-    DB & STORAGE --> RSC
-    RSC --> PUB_HOME & PUB_BUILDER & PUB_MOD
-```
+| Komponen | Teknologi |
+| :--- | :--- |
+| **Framework** | Next.js 15 (App Router & Server Actions) |
+| **Frontend Library** | React 19, Lucide React Icons |
+| **Styling** | Tailwind CSS & Dynamic CSS Variables |
+| **Database** | Supabase PostgreSQL (JSONB + Relational) |
+| **Keamanan** | Supabase Auth & PostgreSQL Row Level Security (RLS) |
+| **Penyimpanan Berkas** | Supabase Storage (`desa-media` bucket) |
+| **Optimasi Gambar** | Browser Image Compression (WebP) & Next.js Image |
 
 ---
 
-## 📁 Struktur Direktori
+## 📂 Struktur Proyek
 
 ```text
 ├── app/
-│   ├── (public)/                 # Halaman untuk pengunjung desa
+│   ├── (public)/                 # Halaman portal warga
 │   │   ├── page.tsx              # Beranda (Hero Slider, Kades, Stats, Feed)
-│   │   ├── berita/               # Warta berita & agenda kegiatan
+│   │   ├── berita/               # Berita & agenda kegiatan
 │   │   ├── apbdes/               # Transparansi realisasi anggaran
 │   │   ├── umkm/                 # Katalog produk & UMKM lokal
-│   │   ├── pemerintahan/         # Struktur organisasi & aparatur
-│   │   ├── galeri/               # Dokumentasi foto & video
+│   │   ├── pemerintahan/         # Struktur organisasi aparatur desa
+│   │   ├── galeri/               # Dokumentasi foto & video kegiatan
 │   │   ├── pengaduan/            # Form aspirasi & pelacak tindak lanjut
 │   │   └── [slug]/               # Catch-all Dynamic Page Builder
-│   ├── admin/                    # Admin Panel (Terproteksi Middleware)
-│   │   ├── layout.tsx            # Sidebar admin, role badge, quick actions
-│   │   ├── page.tsx              # Overview statistik operasional
+│   ├── admin/                    # Panel pengelola desa (Protected)
 │   │   ├── settings/             # Visual theme color picker & menu builder
 │   │   ├── homepage/             # Urutan slider & sambutan kades
 │   │   ├── pages/                # Editor modular block halaman dinamis
-│   │   ├── berita/               # CRUD berita & kategori
+│   │   ├── berita/               # CRUD warta berita & kategori
 │   │   ├── apbdes/               # CRUD pos anggaran & realisasi
 │   │   ├── umkm/                 # CRUD produk UMKM & nomor WA
 │   │   ├── aparatur/             # CRUD perangkat & pejabat desa
-│   │   ├── pengaduan/            # Verifikator & responder laporan warga
+│   │   ├── pengaduan/            # Verifikasi & tanggapan laporan warga
 │   │   └── media/                # Supabase Storage Media Library
-│   ├── login/                    # Halaman autentikasi administrator
-│   ├── not-found.tsx             # Halaman 404 desa responsif
-│   └── layout.tsx                # Injeksi CSS Variables tema dinamis
+│   ├── login/                    # Autentikasi administrator
+│   ├── not-found.tsx             # Halaman 404 desa
+│   └── layout.tsx                # Injeksi tema CSS Variables dinamis
 ├── components/
-│   ├── blocks/                   # BlockRenderer (RichText, Split, Banner, dll)
-│   ├── home/                     # Seksi beranda (HeroSlider, Greeting, Stats)
-│   ├── public/                   # Komponen Navbar dinamis & Footer
-│   ├── apbdes/                   # APBDes view & persentase kalkulator
-│   └── admin/                    # Form manajemen CRUD & visual editor
+│   ├── blocks/                   # BlockRenderer untuk halaman dinamis
+│   ├── home/                     # Seksi beranda utama
+│   └── public/                   # Navbar dinamis & Footer desa
 ├── lib/
 │   ├── actions/mutations.ts      # Server Actions (Mutasi DB + revalidatePath)
-│   ├── data/api.ts               # Data fetcher SSR dengan fallback aman
-│   ├── supabase/                 # Supabase client, server, & middleware session
-│   └── utils/compression.ts      # Kompresor gambar WebP sisi browser
+│   ├── data/api.ts               # Data fetcher dengan fallback data aman
+│   ├── supabase/                 # Supabase client, server, & middleware
+│   └── utils/compression.ts      # Kompresor WebP otomatis sisi browser
 ├── public/
 │   └── logo.png                  # Lambang resmi Kabupaten Pesawaran
 └── supabase/
-    └── schema.sql                # Skema DDL lengkap, RLS, Storage & Seed Data
+    └── schema.sql                # DDL skema database, RLS, Storage & Seed Data
 ```
 
 ---
 
-## 🚀 Panduan Memulai Cepat (Quick Start)
+## 🚀 Panduan Instalasi & Menjalankan
 
-### 1. Prasyarat Sistem
-- **Node.js**: versi 18.x atau 20.x+ (rekomendasi LTS)
-- **npm**: versi 9.x atau 11.x+
-- Akun aktif di [Supabase](https://supabase.com)
-
-### 2. Kloning & Instal Dependensi
+### 1. Kloning Repositori
 ```bash
-git clone https://github.com/username-anda/desa-khepong-jaya.git
-cd desa-khepong-jaya
+git clone https://github.com/HafisYulianto/-Sistem-Informasi-Desa-Khepong-Jaya.git
+cd -Sistem-Informasi-Desa-Khepong-Jaya
+```
+
+### 2. Instalasi Dependensi
+```bash
 npm install
 ```
 
 ### 3. Setup Database Supabase
-1. Masuk ke dashboard proyek Supabase Anda.
-2. Buka menu **SQL Editor** pada navigasi kiri.
-3. Buka berkas `supabase/schema.sql` pada proyek ini, salin seluruh kodenya, tempelkan ke SQL Editor, lalu klik tombol **Run**.
-4. Skema akan otomatis membuat:
-   - Seluruh tabel relasional dan kolom JSONB.
-   - Storage bucket `desa-media` berstatus *public*.
-   - Hak akses RLS (Row Level Security).
-   - Data inisial (*seed data*) Desa Khepong Jaya lengkap.
+1. Masuk ke dashboard proyek Anda di [supabase.com](https://supabase.com).
+2. Buka menu **SQL Editor**.
+3. Salin seluruh isi berkas `supabase/schema.sql` pada repositori ini, lalu klik **Run**.
+4. Database akan otomatis membuat semua tabel, RLS policies, storage bucket `desa-media`, dan data awal desa.
 
 ### 4. Konfigurasi Environment Variables
-Salin file `.env.example` menjadi `.env.local`:
+Salin file template `.env.example` menjadi `.env.local`:
 ```bash
 cp .env.example .env.local
 ```
-Sesuaikan kunci API dari menu **Project Settings > API** di Supabase:
+Lalu isi sesuai konfigurasi proyek Supabase Anda:
 ```env
-NEXT_PUBLIC_SUPABASE_URL=https://<id-proyek-anda>.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=<anon-key-anda>
-SUPABASE_SERVICE_ROLE_KEY=<service-role-key-anda>
+NEXT_PUBLIC_SUPABASE_URL=https://<your-project>.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=<your-anon-key>
+SUPABASE_SERVICE_ROLE_KEY=<your-service-role-key>
 NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
 
-### 5. Jalankan Server Lokal
+### 5. Jalankan Server Pengembangan
 ```bash
 npm run dev
 ```
 
-Buka peramban di:
-- **Portal Publik Warga**: [http://localhost:3000](http://localhost:3000)
-- **Panel Administrator**: [http://localhost:3000/admin](http://localhost:3000/admin) *(atau login melalui [http://localhost:3000/login](http://localhost:3000/login))*
+Buka browser Anda:
+* **Portal Publik**: [http://localhost:3000](http://localhost:3000)
+* **Admin Portal**: [http://localhost:3000/admin](http://localhost:3000/admin) *(Login via [http://localhost:3000/login](http://localhost:3000/login))*
 
 ---
 
-## 📦 Perintah Skrip Tersedia
+## 📜 Lisensi & Hak Cipta
 
-| Perintah | Deskripsi |
-| :--- | :--- |
-| `npm run dev` | Menjalankan server pengembangan lokal (hot reload aktif) |
-| `npm run build` | Melakukan build produksi dan type-checking TypeScript |
-| `npm run start` | Menjalankan server produksi hasil kompilasi build |
-| `npm run lint` | Memeriksa kepatuhan kode menggunakan ESLint |
-
----
-
-## 👨‍💻 Kontributor & Lisensi
-
-Dikembangkan untuk **Pemerintah Desa Khepong Jaya**, Kecamatan Padang Cermin, Kabupaten Pesawaran, Lampung.
+Dikembangkan untuk **Pemerintahan Desa Khepong Jaya**, Kecamatan Padang Cermin, Kabupaten Pesawaran, Lampung.
 
 Hak Cipta © 2026. Seluruh hak cipta dilindungi undang-undang.
-#   - S i s t e m - I n f o r m a s i - D e s a - K h e p o n g - J a y a  
- 
