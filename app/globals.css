@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --primary: #15803d;
+  --primary-hover: #166534;
+  --primary-light: #dcfce7;
+  --primary-foreground: #ffffff;
+  --accent: #f59e0b;
+  --accent-hover: #d97706;
+  --accent-light: #fef3c7;
+  --accent-foreground: #ffffff;
+  --font-sans: 'Inter', sans-serif;
+  --font-heading: 'Inter', sans-serif;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Custom rich text rendering styles */
+.prose-desa {
+  line-height: 1.75;
+}
+
+.prose-desa h1,
+.prose-desa h2,
+.prose-desa h3 {
+  font-weight: 700;
+  color: #1e293b;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose-desa h2 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid var(--primary-light);
+  padding-bottom: 0.5rem;
+}
+
+.prose-desa p {
+  margin-bottom: 1rem;
+}
+
+.prose-desa ul,
+.prose-desa ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.prose-desa ul {
+  list-style-type: disc;
+}
+
+.prose-desa ol {
+  list-style-type: decimal;
+}
+
+.prose-desa blockquote {
+  border-left: 4px solid var(--primary);
+  padding-left: 1rem;
+  font-style: italic;
+  color: #475569;
+  margin: 1rem 0;
+}
