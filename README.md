@@ -217,3 +217,5 @@ Buka peramban di:
 Dikembangkan untuk **Pemerintah Desa Khepong Jaya**, Kecamatan Padang Cermin, Kabupaten Pesawaran, Lampung.
 
 Hak Cipta © 2026. Seluruh hak cipta dilindungi undang-undang.
+#   - S i s t e m - I n f o r m a s i - D e s a - K h e p o n g - J a y a  
+ 
